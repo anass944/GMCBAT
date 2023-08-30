@@ -63,12 +63,14 @@
   font-size:xx-large;
   text-decoration: none;
   color:black;
-margin-right: 20px;
 }
 
 .background > img {
-  width: 20% ;
+  width: 30% ;
   padding: 1%;
+  justify-content: space-around;
+  margin-top: 100px;
+  margin-left: 100px;
 }
 
 .active {
@@ -102,5 +104,13 @@ margin-right: 20px;
   transition: 0.3s;
 }
 
+.H1G {
+  color: red;
+}
 
-
+.background .gmc {
+  margin-top: 100px;
+  margin-left: 200px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: xx-large;
+}
